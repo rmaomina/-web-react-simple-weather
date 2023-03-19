@@ -29,11 +29,9 @@ function App() {
       })
   }
 
-  console.log(currentWeather, forecast)
-
   return (
     <div className="container">
-      <h1>Welcome to Simple Example!</h1>
+      <h1>Welcome to Simple Daily Weather!</h1>
       <Search onSearchChange={handleOnSearchChange}/>
       {currentWeather && <CurrentWeather data={currentWeather} />}
       {forecast && <Forecast data={forecast}/>}
