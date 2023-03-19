@@ -7,19 +7,18 @@ const Forecast = ({data}) => {
   const dayinInAWeek = new Date().getDay()
   const forecastDays = WEEK_DAYS.slice(dayinInAWeek, WEEK_DAYS.length).concat(WEEK_DAYS.slice(0, dayinInAWeek))
 
-  console.log(forecastDays)
-
   return (
     <div>
       <label className="title">Daily</label>
       <Accordion allowZeroExpanded>
         {data.list.splice(0, 7).map((item, idx) => {
+          console.log(item)
           return (
             <AccordionItem key={idx}>
               <AccordionItemHeading>
                 <AccordionItemButton>
                   <div className="daily-item">
-                    <img className="icon-small" src={`icons/${item.weather[0].icon}.png`} alt="weather"/>
+                    <img className="icon-small" src={`${process.env.PUBLIC_URL}/icons/${item.weather[0].icon}.png`} alt="weather"/>
                     <label className="day">{forecastDays[idx]}</label>
                     <label className="min-max">{item.weather[0].description}</label>
                     <label className="description">
