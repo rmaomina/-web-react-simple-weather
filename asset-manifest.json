@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/web-react-search-weather/static/css/main.30033207.css",
+    "main.js": "/web-react-search-weather/static/js/main.99790e66.js",
+    "static/js/787.f1f0a3a6.chunk.js": "/web-react-search-weather/static/js/787.f1f0a3a6.chunk.js",
+    "index.html": "/web-react-search-weather/index.html",
+    "main.30033207.css.map": "/web-react-search-weather/static/css/main.30033207.css.map",
+    "main.99790e66.js.map": "/web-react-search-weather/static/js/main.99790e66.js.map",
+    "787.f1f0a3a6.chunk.js.map": "/web-react-search-weather/static/js/787.f1f0a3a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30033207.css",
+    "static/js/main.99790e66.js"
+  ]
+}
