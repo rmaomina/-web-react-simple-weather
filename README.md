@@ -1,4 +1,4 @@
-# 🌞 Simple daily weather [🔗](https://rmaomina.github.io/web-react-search-weather/)
+# 🌞 Simple daily weather [🔗](https://rmaomina.github.io/daily-weather/)
 ## you can run: `npm start`
 
 Runs the app in the development mode.\
