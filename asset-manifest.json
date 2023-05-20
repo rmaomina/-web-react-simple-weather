@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/daily-weather/static/css/main.30033207.css",
+    "main.js": "/daily-weather/static/js/main.e24f0329.js",
+    "index.html": "/daily-weather/index.html",
+    "main.30033207.css.map": "/daily-weather/static/css/main.30033207.css.map",
+    "main.e24f0329.js.map": "/daily-weather/static/js/main.e24f0329.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.30033207.css",
+    "static/js/main.e24f0329.js"
+  ]
+}
